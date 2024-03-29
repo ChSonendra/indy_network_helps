@@ -1,0 +1,55 @@
+1st time validator-info 
+
+root@node1-deployment-5c4d8bc7fd-lpk2h:/home/indy# validator-info
+Validator node1 is in unknown state
+Update time:     Friday, March 29, 2024 5:18:01 AM +0000
+Validator DID:    7qvCSTQWF64jvRcvyBkwQyCB6UPHy61B5GH1xpRB7UbU
+Verification Key: 6vv62uUA74LDqTm96dt8H1Nq4a88z6edE8JDwkLuurnRdag4Tsqivw4
+BLS Key: 2cmhuQ8YZYWEjfm1Stcf9r1gNhgd7hBq6JJG2U9bjkRyS8Xb3n591ffAcLRLS6jXH1NQHhDAD3twMtL4C6DMPtS7P9tettVu3vd71ooXqVKdaRZC4s7qNX3XpmMLzPUTB4gaAJH3amrY4W5XrNd5JY3vAicCK4t4XHzFCtGi96fPbFt
+Node HA:        0.0.0.0:9701
+Client HA:      0.0.0.0:9702
+Metrics:
+  Uptime: 1 minute, 4 seconds
+  Total ledger Transactions:  7
+  Total pool Transactions:  4
+  Total config Transactions:  0
+  Total audit Transactions:  585
+  Read Transactions/Seconds:  0.00
+  Write Transactions/Seconds: 0.00
+Reachable Hosts:   4/4
+  node1 (0)
+  node2 (1)
+  node3
+  node4
+Unreachable Hosts: 0/4
+Software Versions:
+  indy-node: 1.13.2rc6
+  sovrin: unknown
+
+2nd validator-nfo
+
+root@node1-deployment-5c4d8bc7fd-lpk2h:/home/indy# validator-info
+Validator node1 is in unknown state
+Update time:     Friday, March 29, 2024 5:19:01 AM +0000
+Validator DID:    7qvCSTQWF64jvRcvyBkwQyCB6UPHy61B5GH1xpRB7UbU
+Verification Key: 6vv62uUA74LDqTm96dt8H1Nq4a88z6edE8JDwkLuurnRdag4Tsqivw4
+BLS Key: 2cmhuQ8YZYWEjfm1Stcf9r1gNhgd7hBq6JJG2U9bjkRyS8Xb3n591ffAcLRLS6jXH1NQHhDAD3twMtL4C6DMPtS7P9tettVu3vd71ooXqVKdaRZC4s7qNX3XpmMLzPUTB4gaAJH3amrY4W5XrNd5JY3vAicCK4t4XHzFCtGi96fPbFt
+Node HA:        0.0.0.0:9701
+Client HA:      0.0.0.0:9702
+Metrics:
+  Uptime: 2 minutes, 4 seconds
+  Total ledger Transactions:  7
+  Total pool Transactions:  4
+  Total config Transactions:  0
+  Total audit Transactions:  585
+  Read Transactions/Seconds:  0.00
+  Write Transactions/Seconds: 0.00
+Reachable Hosts:   1/4
+  node1 (0)
+Unreachable Hosts: 3/4
+  node2 (1)
+  node3
+  node4
+Software Versions:
+  indy-node: 1.13.2rc6
+  sovrin: unknown
