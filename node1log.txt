@@ -1,0 +1,253 @@
+2024-03-29 05:16:56,972|INFO|looper.py|Starting up indy-node
+2024-03-29 05:16:57,291|INFO|ledger.py|Starting ledger...
+2024-03-29 05:16:57,424|INFO|ledger.py|Recovering tree from transaction log
+2024-03-29 05:16:57,796|INFO|ledger.py|Recovered tree in 0.3724303179999424 seconds
+2024-03-29 05:16:58,184|INFO|ledger.py|Starting ledger...
+2024-03-29 05:16:58,305|INFO|ledger.py|Recovering tree from hash store of size 4
+2024-03-29 05:16:58,340|INFO|ledger.py|Recovered tree in 0.0344494159999158 seconds
+2024-03-29 05:16:58,755|INFO|ledger.py|Starting ledger...
+2024-03-29 05:16:58,880|INFO|ledger.py|Recovering tree from hash store of size 7
+2024-03-29 05:16:58,881|INFO|ledger.py|Recovered tree in 0.0011797489999025856 seconds
+2024-03-29 05:16:59,278|INFO|ledger.py|Starting ledger...
+2024-03-29 05:16:59,403|INFO|ledger.py|Recovering tree from hash store of size 585
+2024-03-29 05:16:59,407|INFO|ledger.py|Recovered tree in 0.003813078999883146 seconds
+2024-03-29 05:17:00,470|NOTIFICATION|node_bootstrap.py|BLS: BLS Signatures will be used for Node node1
+2024-03-29 05:17:00,471|INFO|pool_manager.py|node1 sets node node1 (7qvCSTQWF64jvRcvyBkwQyCB6UPHy61B5GH1xpRB7UbU) order to 5
+2024-03-29 05:17:00,471|INFO|pool_manager.py|node1 sets node node2 (XSoCSiyuonqwaNNEVv49Xjvf59zpizjx6isDm8CivZa) order to 5
+2024-03-29 05:17:00,471|INFO|pool_manager.py|node1 sets node node3 (3ZnKRDaVL6hdgePTJm9Dg9HnQHxenpYHphgVQQonu2XA) order to 5
+2024-03-29 05:17:00,471|INFO|pool_manager.py|node1 sets node node4 (Asc7BnXENXnEdoeherkbBUx5YNWcHBnLdoBuhFgZA8hk) order to 5
+2024-03-29 05:17:00,929|INFO|notifier_plugin_manager.py|Found notifier plugins: []
+2024-03-29 05:17:00,974|INFO|notifier_plugin_manager.py|Found notifier plugins: []
+2024-03-29 05:17:01,063|INFO|restarter.py|Restart for node node1 was not scheduled. Last event is {'ts': datetime.datetime(2024, 3, 29, 5, 14, 58, 609439), 'ev_type': <ActionLogEvents.succeeded: 3
+>, 'data': {'when': datetime.datetime(2024, 3, 29, 5, 14, 16, 773045, tzinfo=tzlocal())}, '_data_items_prefix': '_data_', '_items': ['ts', 'ev_type', '_data_when']}
+2024-03-29 05:17:01,147|INFO|stacks.py|node1C: clients connections tracking is enabled.
+2024-03-29 05:17:01,147|INFO|stacks.py|node1C: client stack restart is enabled.
+2024-03-29 05:17:01,211|NOTIFICATION|plugin_loader.py|skipping plugin plugin_firebase_stats_consumer[class: <class 'plenum.server.plugin.stats_consumer.stats_publisher.StatsPublisher'>] because it
+ does not have a 'pluginType' attribute
+2024-03-29 05:17:01,212|NOTIFICATION|plugin_loader.py|skipping plugin plugin_firebase_stats_consumer[class: <enum 'Topic'>] because it does not have a 'pluginType' attribute
+2024-03-29 05:17:01,213|NOTIFICATION|plugin_loader.py|skipping plugin plugin_firebase_stats_consumer[class: <class 'plenum.server.plugin_loader.HasDynamicallyImportedModules'>] because it does not
+ have a 'pluginType' attribute
+2024-03-29 05:17:01,213|NOTIFICATION|plugin_loader.py|skipping plugin plugin_firebase_stats_consumer[class: <class 'plenum.server.stats_consumer.StatsConsumer'>] because it does not have a 'plugin
+Type' attribute
+2024-03-29 05:17:01,213|INFO|plugin_loader.py|plugin FirebaseStatsConsumer successfully loaded from module plugin_firebase_stats_consumer
+2024-03-29 05:17:01,218|INFO|node.py|node1 updated its pool parameters: f 1, totalNodes 4, allNodeNames {'node3', 'node2', 'node1', 'node4'}, requiredNumberOfInstances 2, minimumNodes 3, quorums {
+'n': 4, 'f': 1, 'weak': Quorum(2), 'strong': Quorum(3), 'propagate': Quorum(2), 'prepare': Quorum(2), 'commit': Quorum(3), 'reply': Quorum(2), 'view_change': Quorum(3), 'election': Quorum(3), 'vie
+w_change_ack': Quorum(2), 'view_change_done': Quorum(3), 'same_consistency_proof': Quorum(2), 'consistency_proof': Quorum(2), 'ledger_status': Quorum(2), 'ledger_status_last_3PC': Quorum(2), 'chec
+kpoint': Quorum(2), 'timestamp': Quorum(2), 'bls_signatures': Quorum(3), 'observer_data': Quorum(2), 'backup_instance_faulty': Quorum(2)}
+2024-03-29 05:17:01,218|INFO|consensus_shared_data.py|node1:0 updated validators list to ['node1', 'node2', 'node3', 'node4']
+2024-03-29 05:17:01,221|INFO|primary_connection_monitor_service.py|node1:0 scheduling primary connection check in 60 sec
+2024-03-29 05:17:01,222|NOTIFICATION|replicas.py|node1 added replica node1:0 to instance 0 (master)
+2024-03-29 05:17:01,222|INFO|replicas.py|reset monitor due to replica addition
+2024-03-29 05:17:01,224|INFO|consensus_shared_data.py|node1:1 updated validators list to ['node1', 'node2', 'node3', 'node4']
+2024-03-29 05:17:01,225|NOTIFICATION|replicas.py|node1 added replica node1:1 to instance 1 (backup)
+2024-03-29 05:17:01,225|INFO|replicas.py|reset monitor due to replica addition
+2024-03-29 05:17:01,226|INFO|consensus_shared_data.py|node1:0 updated validators list to {'node3', 'node2', 'node1', 'node4'}
+2024-03-29 05:17:01,226|INFO|consensus_shared_data.py|node1:1 updated validators list to {'node3', 'node2', 'node1', 'node4'}
+2024-03-29 05:17:01,226|INFO|replica.py|node1:0 setting primaryName for view no 0 to: node1:0
+2024-03-29 05:17:01,227|NOTIFICATION|primary_connection_monitor_service.py|node1:0 restored connection to primary of master
+2024-03-29 05:17:01,227|NOTIFICATION|node.py|PRIMARY SELECTION:  selected primary node1:0 for instance 0 (view 0)
+2024-03-29 05:17:01,228|INFO|replica.py|node1:1 setting primaryName for view no 0 to: node2:1
+2024-03-29 05:17:01,228|NOTIFICATION|node.py|PRIMARY SELECTION:  selected primary node2:1 for instance 1 (view 0)
+2024-03-29 05:17:01,231|INFO|node.py|total plugins loaded in node: 0
+2024-03-29 05:17:01,248|INFO|ledgers_bootstrap.py|<indy_node.server.node_bootstrap.NodeBootstrap object at 0x7f032b0877c0> initialized state for ledger 0: state root H8V2n25WYohZghPJKFM3QJy9WF6pKg
+6W6JTJ3rE6b5o3
+2024-03-29 05:17:01,249|INFO|ledgers_bootstrap.py|<indy_node.server.node_bootstrap.NodeBootstrap object at 0x7f032b0877c0> found state to be empty, recreating from ledger 2
+2024-03-29 05:17:01,249|INFO|ledgers_bootstrap.py|<indy_node.server.node_bootstrap.NodeBootstrap object at 0x7f032b0877c0> initialized state for ledger 2: state root DfNLmH4DAHTKv63YPFJzuRdeEtVwF5
+RtVnvKYHd8iLEA
+2024-03-29 05:17:01,249|INFO|ledgers_bootstrap.py|<indy_node.server.node_bootstrap.NodeBootstrap object at 0x7f032b0877c0> initialized state for ledger 1: state root AhCq7KqG1ccyveTMucZN5YhoZa5pMe
+MRGuniGWEpZHNV
+2024-03-29 05:17:01,249|INFO|motor.py|node1 changing status from stopped to starting
+2024-03-29 05:17:01,302|INFO|zstack.py|node1 will bind its listener at 0.0.0.0:9701
+2024-03-29 05:17:01,302|INFO|stacks.py|CONNECTION: node1 listening for other nodes at 0.0.0.0:9701
+2024-03-29 05:17:01,317|INFO|zstack.py|node1C will bind its listener at 0.0.0.0:9702
+2024-03-29 05:17:01,504|INFO|node.py|node1 first time running...
+2024-03-29 05:17:01,505|INFO|node.py|node1 processed 0 Ordered batches for instance 0 before starting catch up
+2024-03-29 05:17:01,505|INFO|node.py|node1 processed 0 Ordered batches for instance 1 before starting catch up
+2024-03-29 05:17:01,506|INFO|ordering_service.py|node1:0 reverted 0 batches before starting catch up
+2024-03-29 05:17:01,506|INFO|node_leecher_service.py|node1:NodeLeecherService starting catchup (is_initial=True)
+2024-03-29 05:17:01,506|INFO|node_leecher_service.py|node1:NodeLeecherService transitioning from Idle to PreSyncingPool
+2024-03-29 05:17:01,506|INFO|cons_proof_service.py|node1:ConsProofService:0 starts
+2024-03-29 05:17:01,523|INFO|kit_zstack.py|CONNECTION: node1 found the following missing connections: node2, node3, node4
+2024-03-29 05:17:01,531|INFO|zstack.py|CONNECTION: node1 looking for node2 at node2.ssgdev.org:9703
+2024-03-29 05:17:01,538|INFO|zstack.py|CONNECTION: node1 looking for node3 at node3.ssgdev.org:9705
+2024-03-29 05:17:01,545|INFO|zstack.py|CONNECTION: node1 looking for node4 at node4.ssgdev.org:9707
+2024-03-29 05:17:13,576|NOTIFICATION|keep_in_touch.py|node1's connections changed from set() to {'node2'}
+2024-03-29 05:17:13,577|NOTIFICATION|keep_in_touch.py|CONNECTION: node1 now connected to node2
+2024-03-29 05:17:13,578|INFO|node.py|node1 joined nodes {'node2'} but status is 2
+2024-03-29 05:17:13,635|NOTIFICATION|keep_in_touch.py|node1's connections changed from {'node2'} to set()
+2024-03-29 05:17:13,635|NOTIFICATION|keep_in_touch.py|CONNECTION: node1 disconnected from node2
+2024-03-29 05:17:13,635|INFO|node.py|node1 scheduling replica removal for instance 1 in 180 sec
+2024-03-29 05:17:13,635|INFO|node.py|node1 joined nodes set() but status is 2
+2024-03-29 05:17:13,773|NOTIFICATION|keep_in_touch.py|node1's connections changed from set() to {'node3', 'node4'}
+2024-03-29 05:17:13,773|NOTIFICATION|keep_in_touch.py|CONNECTION: node1 now connected to node3
+2024-03-29 05:17:13,773|NOTIFICATION|keep_in_touch.py|CONNECTION: node1 now connected to node4
+2024-03-29 05:17:13,773|INFO|motor.py|node1 changing status from starting to started_hungry
+2024-03-29 05:17:13,773|INFO|primary_connection_monitor_service.py|node1:1 scheduling primary connection check in 60 sec
+2024-03-29 05:17:13,926|NOTIFICATION|keep_in_touch.py|node1's connections changed from {'node3', 'node4'} to set()
+2024-03-29 05:17:13,926|NOTIFICATION|keep_in_touch.py|CONNECTION: node1 disconnected from node3
+2024-03-29 05:17:13,926|NOTIFICATION|keep_in_touch.py|CONNECTION: node1 disconnected from node4
+2024-03-29 05:17:13,926|INFO|motor.py|node1 changing status from started_hungry to starting
+2024-03-29 05:17:13,926|INFO|node.py|node1 joined nodes set() but status is 2
+2024-03-29 05:17:13,926|WARNING|node.py|Suspecting inconsistent 3PC state, going to restart in 90 seconds
+2024-03-29 05:17:13,926|INFO|restarter.py|Node 'node1' schedules restart
+2024-03-29 05:17:13,927|INFO|restarter.py|7qvCSTQWF64jvRcvyBkwQyCB6UPHy61B5GH1xpRB7UbU's restarter processing restart
+2024-03-29 05:17:13,927|INFO|restarter.py|Restart of node 'node1' has been scheduled on 2024-03-29 05:18:43.926951+00:00
+2024-03-29 05:17:15,463|INFO|seeder_service.py|node1 received ledger status: LEDGER_STATUS{'ledgerId': 0, 'txnSeqNo': 4, 'viewNo': None, 'ppSeqNo': None, 'merkleRoot': 'Ah6cTaE1v4FqyTar1LGSZXP1cKW
+pDrHeDGJpeWTnDCU8', 'protocolVersion': 2} from node4
+2024-03-29 05:17:15,463|INFO|cons_proof_service.py|node1:ConsProofService:0 comparing its ledger 0 of size 4 with 4
+2024-03-29 05:17:15,464|INFO|cons_proof_service.py|node1:ConsProofService:0 comparing its ledger 0 of size 4 with 4
+2024-03-29 05:17:15,465|NOTIFICATION|keep_in_touch.py|node1's connections changed from set() to {'node4'}
+2024-03-29 05:17:15,465|NOTIFICATION|keep_in_touch.py|CONNECTION: node1 now connected to node4
+2024-03-29 05:17:15,465|INFO|node.py|node1 joined nodes {'node4'} but status is 2
+2024-03-29 05:17:15,691|NOTIFICATION|keep_in_touch.py|node1's connections changed from {'node4'} to {'node2', 'node4'}
+2024-03-29 05:17:15,691|NOTIFICATION|keep_in_touch.py|CONNECTION: node1 now connected to node2
+2024-03-29 05:17:15,691|INFO|motor.py|node1 changing status from starting to started_hungry
+2024-03-29 05:17:15,691|INFO|primary_connection_monitor_service.py|node1:1 scheduling primary connection check in 60 sec
+2024-03-29 05:17:15,737|NOTIFICATION|keep_in_touch.py|node1's connections changed from {'node2', 'node4'} to {'node4'}
+2024-03-29 05:17:15,737|NOTIFICATION|keep_in_touch.py|CONNECTION: node1 disconnected from node2
+2024-03-29 05:17:15,737|INFO|motor.py|node1 changing status from started_hungry to starting
+2024-03-29 05:17:15,737|INFO|node.py|node1 scheduling replica removal for instance 1 in 180 sec
+2024-03-29 05:17:15,737|INFO|node.py|node1 joined nodes set() but status is 2
+2024-03-29 05:17:16,024|NOTIFICATION|keep_in_touch.py|node1's connections changed from {'node4'} to {'node3', 'node4'}
+2024-03-29 05:17:16,024|NOTIFICATION|keep_in_touch.py|CONNECTION: node1 now connected to node3
+2024-03-29 05:17:16,024|INFO|motor.py|node1 changing status from starting to started_hungry
+2024-03-29 05:17:16,024|INFO|primary_connection_monitor_service.py|node1:1 scheduling primary connection check in 60 sec
+2024-03-29 05:17:16,121|NOTIFICATION|keep_in_touch.py|node1's connections changed from {'node3', 'node4'} to {'node4'}
+2024-03-29 05:17:16,121|NOTIFICATION|keep_in_touch.py|CONNECTION: node1 disconnected from node3
+2024-03-29 05:17:16,121|INFO|motor.py|node1 changing status from started_hungry to starting
+2024-03-29 05:17:16,121|INFO|node.py|node1 joined nodes set() but status is 2
+2024-03-29 05:17:16,195|NOTIFICATION|keep_in_touch.py|node1's connections changed from {'node4'} to {'node2', 'node4'}
+2024-03-29 05:17:16,195|NOTIFICATION|keep_in_touch.py|CONNECTION: node1 now connected to node2
+2024-03-29 05:17:16,195|INFO|motor.py|node1 changing status from starting to started_hungry
+2024-03-29 05:17:16,195|INFO|primary_connection_monitor_service.py|node1:1 scheduling primary connection check in 60 sec
+2024-03-29 05:17:16,208|INFO|seeder_service.py|node1 received ledger status: LEDGER_STATUS{'ledgerId': 0, 'txnSeqNo': 4, 'viewNo': None, 'ppSeqNo': None, 'merkleRoot': 'Ah6cTaE1v4FqyTar1LGSZXP1cKW
+pDrHeDGJpeWTnDCU8', 'protocolVersion': 2} from node2
+2024-03-29 05:17:16,208|INFO|cons_proof_service.py|node1:ConsProofService:0 comparing its ledger 0 of size 4 with 4
+2024-03-29 05:17:16,208|INFO|cons_proof_service.py|node1:ConsProofService:0 comparing its ledger 0 of size 4 with 4
+2024-03-29 05:17:16,210|INFO|cons_proof_service.py|node1:ConsProofService:0 finished with consistency proof None
+2024-03-29 05:17:16,210|INFO|catchup_rep_service.py|node1:CatchupRepService:0 started catching up with LedgerCatchupStart(ledger_id=0, catchup_till=None, nodes_ledger_sizes={})
+2024-03-29 05:17:16,210|INFO|catchup_rep_service.py|CATCH-UP: node1:CatchupRepService:0 completed catching up ledger 0, caught up 0 in total
+2024-03-29 05:17:16,210|INFO|node_leecher_service.py|node1:NodeLeecherService transitioning from PreSyncingPool to SyncingAudit
+2024-03-29 05:17:16,210|INFO|cons_proof_service.py|node1:ConsProofService:3 starts
+2024-03-29 05:17:16,210|INFO|cons_proof_service.py|node1:ConsProofService:3 asking for ledger status of ledger 3
+2024-03-29 05:17:16,244|INFO|seeder_service.py|node1 received ledger status: LEDGER_STATUS{'ledgerId': 3, 'txnSeqNo': 585, 'viewNo': None, 'ppSeqNo': None, 'merkleRoot': '6KpW6hizNQx5yA98SfHTG3cu6
+MqY7uoKCNotyjA1bS9z', 'protocolVersion': 2} from node4
+2024-03-29 05:17:16,244|INFO|cons_proof_service.py|node1:ConsProofService:3 comparing its ledger 3 of size 585 with 585
+2024-03-29 05:17:16,244|INFO|cons_proof_service.py|node1:ConsProofService:3 comparing its ledger 3 of size 585 with 585
+2024-03-29 05:17:16,257|INFO|seeder_service.py|node1 received ledger status: LEDGER_STATUS{'ledgerId': 3, 'txnSeqNo': 585, 'viewNo': None, 'ppSeqNo': None, 'merkleRoot': '6KpW6hizNQx5yA98SfHTG3cu6
+MqY7uoKCNotyjA1bS9z', 'protocolVersion': 2} from node2
+2024-03-29 05:17:16,257|INFO|cons_proof_service.py|node1:ConsProofService:3 comparing its ledger 3 of size 585 with 585
+2024-03-29 05:17:16,257|INFO|cons_proof_service.py|node1:ConsProofService:3 comparing its ledger 3 of size 585 with 585
+2024-03-29 05:17:16,257|INFO|cons_proof_service.py|node1:ConsProofService:3 finished with consistency proof None
+2024-03-29 05:17:16,258|INFO|catchup_rep_service.py|node1:CatchupRepService:3 started catching up with LedgerCatchupStart(ledger_id=3, catchup_till=None, nodes_ledger_sizes={})
+2024-03-29 05:17:16,258|INFO|catchup_rep_service.py|CATCH-UP: node1:CatchupRepService:3 completed catching up ledger 3, caught up 0 in total
+2024-03-29 05:17:16,258|INFO|node_leecher_service.py|node1:NodeLeecherService transitioning from SyncingAudit to SyncingPool
+2024-03-29 05:17:16,258|INFO|catchup_rep_service.py|node1:CatchupRepService:0 started catching up with LedgerCatchupStart(ledger_id=0, catchup_till=None, nodes_ledger_sizes={})
+2024-03-29 05:17:16,259|INFO|catchup_rep_service.py|CATCH-UP: node1:CatchupRepService:0 completed catching up ledger 0, caught up 0 in total
+2024-03-29 05:17:16,259|INFO|node_leecher_service.py|node1:NodeLeecherService transitioning from SyncingPool to SyncingConfig
+2024-03-29 05:17:16,259|INFO|catchup_rep_service.py|node1:CatchupRepService:2 started catching up with LedgerCatchupStart(ledger_id=2, catchup_till=None, nodes_ledger_sizes={})
+2024-03-29 05:17:16,259|INFO|catchup_rep_service.py|CATCH-UP: node1:CatchupRepService:2 completed catching up ledger 2, caught up 0 in total
+2024-03-29 05:17:16,260|INFO|node_leecher_service.py|node1:NodeLeecherService transitioning from SyncingConfig to SyncingOthers
+2024-03-29 05:17:16,260|INFO|catchup_rep_service.py|node1:CatchupRepService:1 started catching up with LedgerCatchupStart(ledger_id=1, catchup_till=None, nodes_ledger_sizes={})
+2024-03-29 05:17:16,260|INFO|catchup_rep_service.py|CATCH-UP: node1:CatchupRepService:1 completed catching up ledger 1, caught up 0 in total
+2024-03-29 05:17:16,260|INFO|node_leecher_service.py|node1:NodeLeecherService transitioning from SyncingOthers to Idle
+2024-03-29 05:17:16,260|INFO|node.py|node1 caught up to 0 txns in the last catchup
+2024-03-29 05:17:16,261|INFO|node_reg_handler.py|Loaded current node registry from the ledger: ['node1', 'node2', 'node3', 'node4']
+2024-03-29 05:17:16,261|INFO|node_reg_handler.py|Current committed node registry for previous views: [(0, ['node1', 'node2', 'node3', 'node4'])]
+2024-03-29 05:17:16,261|INFO|node_reg_handler.py|Current uncommitted node registry for previous views: [(0, ['node1', 'node2', 'node3', 'node4'])]
+2024-03-29 05:17:16,261|INFO|node_reg_handler.py|Current active node registry: ['node1', 'node2', 'node3', 'node4']
+2024-03-29 05:17:16,264|INFO|checkpoint_service.py|node1:0 - checkpoint_service adding a stable checkpoint CHECKPOINT{'instId': 0, 'viewNo': 0, 'seqNoStart': 0, 'seqNoEnd': 500, 'digest': '5iHrvRf
+mFhJgCvn37PFo9HNQUdgBm8AumuA45b5PmgPg'}
+2024-03-29 05:17:16,264|INFO|checkpoint_service.py|node1:0 - checkpoint_service set watermarks as 500 800
+2024-03-29 05:17:16,264|INFO|ordering_service.py|node1:0 cleaning up till (0, 500)
+2024-03-29 05:17:16,264|INFO|checkpoint_service.py|node1:0 - checkpoint_service marked stable checkpoint 500
+2024-03-29 05:17:16,264|INFO|ordering_service.py|node1:0 set last ordered as (0, 585)
+2024-03-29 05:17:16,266|INFO|checkpoint_service.py|node1:1 - checkpoint_service removing all received checkpoints
+2024-03-29 05:17:16,266|INFO|checkpoint_service.py|node1:1 - checkpoint_service set watermarks as 0 9223372036854775807
+2024-03-29 05:17:16,266|INFO|node.py|CATCH-UP: node1 caught up till (0, 585)
+2024-03-29 05:17:16,266|INFO|node.py|CATCH-UP: node1 does not need any more catchups
+2024-03-29 05:17:16,266|INFO|replica.py|node1:0 setting primaryName for view no 0 to: None
+2024-03-29 05:17:16,266|INFO|replica.py|node1:1 setting primaryName for view no 0 to: None
+2024-03-29 05:17:16,266|INFO|node.py|node1 updated its pool parameters: f 1, totalNodes 4, allNodeNames {'node3', 'node2', 'node1', 'node4'}, requiredNumberOfInstances 2, minimumNodes 3, quorums {
+'n': 4, 'f': 1, 'weak': Quorum(2), 'strong': Quorum(3), 'propagate': Quorum(2), 'prepare': Quorum(2), 'commit': Quorum(3), 'reply': Quorum(2), 'view_change': Quorum(3), 'election': Quorum(3), 'vie
+w_change_ack': Quorum(2), 'view_change_done': Quorum(3), 'same_consistency_proof': Quorum(2), 'consistency_proof': Quorum(2), 'ledger_status': Quorum(2), 'ledger_status_last_3PC': Quorum(2), 'chec
+kpoint': Quorum(2), 'timestamp': Quorum(2), 'bls_signatures': Quorum(3), 'observer_data': Quorum(2), 'backup_instance_faulty': Quorum(2)}
+2024-03-29 05:17:16,267|INFO|consensus_shared_data.py|node1:0 updated validators list to {'node3', 'node2', 'node1', 'node4'}
+2024-03-29 05:17:16,267|INFO|consensus_shared_data.py|node1:1 updated validators list to {'node3', 'node2', 'node1', 'node4'}
+2024-03-29 05:17:16,267|INFO|replica.py|node1:0 setting primaryName for view no 0 to: node1:0
+2024-03-29 05:17:16,267|NOTIFICATION|primary_connection_monitor_service.py|node1:0 restored connection to primary of master
+2024-03-29 05:17:16,267|NOTIFICATION|node.py|PRIMARY SELECTION:  selected primary node1:0 for instance 0 (view 0)
+2024-03-29 05:17:16,267|INFO|replica.py|node1:1 setting primaryName for view no 0 to: node2:1
+2024-03-29 05:17:16,267|NOTIFICATION|node.py|PRIMARY SELECTION:  selected primary node2:1 for instance 1 (view 0)
+2024-03-29 05:17:16,267|INFO|node.py|node1 started participating
+2024-03-29 05:17:16,268|INFO|checkpoint_service.py|update_watermark_from_3pc to (0, 585)
+2024-03-29 05:17:16,268|INFO|checkpoint_service.py|node1:0 - checkpoint_service set watermarks as 585 885
+2024-03-29 05:17:16,268|INFO|checkpoint_service.py|node1:1 - checkpoint_service set watermarks as 0 9223372036854775807
+2024-03-29 05:17:16,268|INFO|last_sent_pp_store_helper.py|node1 trying to restore lastPrePrepareSeqNo
+2024-03-29 05:17:16,268|INFO|last_sent_pp_store_helper.py|node1 did not find stored lastSentPrePrepare
+2024-03-29 05:17:16,268|INFO|last_sent_pp_store_helper.py|node1 erasing stored lastSentPrePrepare
+2024-03-29 05:17:16,268|INFO|zstack.py|Processing messages from previously unknown remotes.
+2024-03-29 05:17:17,030|NOTIFICATION|keep_in_touch.py|node1's connections changed from {'node2', 'node4'} to {'node2', 'node3', 'node4'}
+2024-03-29 05:17:17,030|NOTIFICATION|keep_in_touch.py|CONNECTION: node1 now connected to node3
+2024-03-29 05:17:17,030|INFO|motor.py|node1 changing status from started_hungry to started
+2024-03-29 05:17:17,044|INFO|seeder_service.py|node1 received ledger status: LEDGER_STATUS{'ledgerId': 3, 'txnSeqNo': 585, 'viewNo': None, 'ppSeqNo': None, 'merkleRoot': '6KpW6hizNQx5yA98SfHTG3cu6
+MqY7uoKCNotyjA1bS9z', 'protocolVersion': 2} from node3
+2024-03-29 05:17:17,044|INFO|cons_proof_service.py|node1:ConsProofService:3 ignoring LEDGER_STATUS{'ledgerId': 3, 'txnSeqNo': 585, 'viewNo': None, 'ppSeqNo': None, 'merkleRoot': '6KpW6hizNQx5yA98S
+fHTG3cu6MqY7uoKCNotyjA1bS9z', 'protocolVersion': 2} since it is not gathering ledger statuses
+2024-03-29 05:17:17,044|INFO|seeder_service.py|node1 received ledger status: LEDGER_STATUS{'ledgerId': 0, 'txnSeqNo': 4, 'viewNo': None, 'ppSeqNo': None, 'merkleRoot': 'Ah6cTaE1v4FqyTar1LGSZXP1cKW
+pDrHeDGJpeWTnDCU8', 'protocolVersion': 2} from node3
+2024-03-29 05:17:17,044|INFO|cons_proof_service.py|node1:ConsProofService:0 ignoring LEDGER_STATUS{'ledgerId': 0, 'txnSeqNo': 4, 'viewNo': None, 'ppSeqNo': None, 'merkleRoot': 'Ah6cTaE1v4FqyTar1LG
+SZXP1cKWpDrHeDGJpeWTnDCU8', 'protocolVersion': 2} since it is not gathering ledger statuses
+2024-03-29 05:18:13,781|INFO|primary_connection_monitor_service.py|node1:1 The primary is already connected so view change will not be proposed
+2024-03-29 05:18:15,264|NOTIFICATION|keep_in_touch.py|node1's connections changed from {'node2', 'node3', 'node4'} to {'node2', 'node3'}
+2024-03-29 05:18:15,264|NOTIFICATION|keep_in_touch.py|CONNECTION: node1 disconnected from node4
+2024-03-29 05:18:15,264|INFO|motor.py|node1 changing status from started to started_hungry
+2024-03-29 05:18:15,695|INFO|primary_connection_monitor_service.py|node1:1 The primary is already connected so view change will not be proposed
+2024-03-29 05:18:15,739|NOTIFICATION|keep_in_touch.py|node1's connections changed from {'node2', 'node3'} to {'node3'}
+2024-03-29 05:18:15,740|NOTIFICATION|keep_in_touch.py|CONNECTION: node1 disconnected from node2
+2024-03-29 05:18:15,740|INFO|motor.py|node1 changing status from started_hungry to starting
+2024-03-29 05:18:15,740|INFO|node.py|node1 scheduling replica removal for instance 1 in 180 sec
+2024-03-29 05:18:15,740|INFO|node.py|node1 joined nodes set() but status is 2
+2024-03-29 05:18:16,024|NOTIFICATION|primary_connection_monitor_service.py|node1:1 primary has been disconnected for too long
+2024-03-29 05:18:16,025|INFO|primary_connection_monitor_service.py|node1:1 The node is not ready yet so view change will not be proposed now, but re-scheduled.
+2024-03-29 05:18:16,025|INFO|primary_connection_monitor_service.py|node1:1 scheduling primary connection check in 60 sec
+2024-03-29 05:18:16,202|NOTIFICATION|primary_connection_monitor_service.py|node1:1 primary has been disconnected for too long
+2024-03-29 05:18:16,202|INFO|primary_connection_monitor_service.py|node1:1 The node is not ready yet so view change will not be proposed now, but re-scheduled.
+2024-03-29 05:18:16,202|INFO|primary_connection_monitor_service.py|node1:1 scheduling primary connection check in 60 sec
+2024-03-29 05:18:16,773|NOTIFICATION|keep_in_touch.py|node1's connections changed from {'node3'} to set()
+2024-03-29 05:18:16,774|NOTIFICATION|keep_in_touch.py|CONNECTION: node1 disconnected from node3
+2024-03-29 05:18:16,774|INFO|node.py|node1 joined nodes set() but status is 2
+2024-03-29 05:18:16,774|WARNING|node.py|Suspecting inconsistent 3PC state, going to restart in 90 seconds
+2024-03-29 05:18:16,774|INFO|restarter.py|Node 'node1' cancels previous restart and schedules a new one
+2024-03-29 05:18:16,774|INFO|restarter.py|Cancelling restart of node node1 scheduled on 2024-03-29 05:18:43.926951+00:00, cancellation reason not specified
+2024-03-29 05:18:16,784|INFO|restarter.py|Restart of node 'node1'has been cancelled due to cancellation reason not specified
+2024-03-29 05:18:16,784|INFO|restarter.py|Node 'node1' schedules restart
+2024-03-29 05:18:16,784|INFO|restarter.py|7qvCSTQWF64jvRcvyBkwQyCB6UPHy61B5GH1xpRB7UbU's restarter processing restart
+2024-03-29 05:18:16,784|INFO|restarter.py|Restart of node 'node1' has been scheduled on 2024-03-29 05:19:46.774470+00:00
+2024-03-29 05:19:16,029|NOTIFICATION|primary_connection_monitor_service.py|node1:1 primary has been disconnected for too long
+2024-03-29 05:19:16,029|INFO|primary_connection_monitor_service.py|node1:1 The node is not ready yet so view change will not be proposed now, but re-scheduled.
+2024-03-29 05:19:16,029|INFO|primary_connection_monitor_service.py|node1:1 scheduling primary connection check in 60 sec
+2024-03-29 05:19:16,204|NOTIFICATION|primary_connection_monitor_service.py|node1:1 primary has been disconnected for too long
+2024-03-29 05:19:16,204|INFO|primary_connection_monitor_service.py|node1:1 The node is not ready yet so view change will not be proposed now, but re-scheduled.
+2024-03-29 05:19:16,204|INFO|primary_connection_monitor_service.py|node1:1 scheduling primary connection check in 60 sec
+2024-03-29 05:19:46,787|INFO|restarter.py|7qvCSTQWF64jvRcvyBkwQyCB6UPHy61B5GH1xpRB7UbU's restart calling agent for restart
+2024-03-29 05:19:46,801|INFO|restarter.py|Sending message to control tool: {"message_type": "restart"}
+2024-03-29 05:19:46,802|WARNING|restarter.py|Failed to communicate to control tool: [Errno 111] Connect call failed ('127.0.0.1', 30003)
+2024-03-29 05:19:46,805|INFO|restarter.py|Sending message to control tool: {"message_type": "restart"}
+2024-03-29 05:19:46,805|WARNING|restarter.py|Failed to communicate to control tool: [Errno 111] Connect call failed ('127.0.0.1', 30003)
+2024-03-29 05:19:46,806|INFO|restarter.py|Sending message to control tool: {"message_type": "restart"}
+2024-03-29 05:19:46,806|WARNING|restarter.py|Failed to communicate to control tool: [Errno 111] Connect call failed ('127.0.0.1', 30003)
+2024-03-29 05:19:46,806|ERROR|base_events.py|Task exception was never retrieved
+future: <Task finished name='Task-2' coro=<Restarter._sendUpdateRequest() done, defined at /usr/local/lib/python3.8/dist-packages/indy_node/server/restarter.py:188> exception=TypeError('_action_fa
+iled() takes 1 positional argument but 2 positional arguments (and 1 keyword-only argument) were given')>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/indy_node/server/restarter.py", line 202, in _sendUpdateRequest
+    self._action_failed(ev_data,
+TypeError: _action_failed() takes 1 positional argument but 2 positional arguments (and 1 keyword-only argument) were given
+2024-03-29 05:20:16,036|NOTIFICATION|primary_connection_monitor_service.py|node1:1 primary has been disconnected for too long
+2024-03-29 05:20:16,037|INFO|primary_connection_monitor_service.py|node1:1 The node is not ready yet so view change will not be proposed now, but re-scheduled.
+2024-03-29 05:20:16,037|INFO|primary_connection_monitor_service.py|node1:1 scheduling primary connection check in 60 sec
+2024-03-29 05:20:16,213|NOTIFICATION|primary_connection_monitor_service.py|node1:1 primary has been disconnected for too long
+2024-03-29 05:20:16,213|INFO|primary_connection_monitor_service.py|node1:1 The node is not ready yet so view change will not be proposed now, but re-scheduled.
+2024-03-29 05:20:16,213|INFO|primary_connection_monitor_service.py|node1:1 scheduling primary connection check in 60 sec
+2024-03-29 05:21:15,745|NOTIFICATION|replicas.py|node1 removed replica node1:1 from instance 1
