@@ -1,6 +1,6 @@
 # setting up indy network
 ## sources
-https://github.com/hyperledger/indy-node-container
+https://github.com/hyperledger/indy-node-container \n
 https://hyperledger-indy.readthedocs.io/projects/sdk/en/latest/cli/README.html
 
 ## reqiuired things
